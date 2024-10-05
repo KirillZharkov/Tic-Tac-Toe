@@ -1,5 +1,5 @@
 {
-  "name": "irillzharkov/tic-tac-toe",
+  "name": "vendor/package",
   "autoload": {
     "files": [
       "src/Controller.php",
