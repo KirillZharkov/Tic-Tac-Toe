@@ -1,5 +1,5 @@
 {
-  "name": "kirillzharkov/tic-tac-toe",
+  "name": "irillzharkov/tic-tac-toe",
   "autoload": {
     "files": [
       "src/Controller.php",
