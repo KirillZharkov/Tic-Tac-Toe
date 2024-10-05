@@ -6,4 +6,5 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
+    'KirillZharkov\\tic-tac-toe\\' => array($baseDir . '/src'),
 );

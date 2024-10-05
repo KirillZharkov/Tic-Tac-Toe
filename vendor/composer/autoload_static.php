@@ -4,12 +4,26 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInitc25258445db46b2c05dba35ed14a838d
+class ComposerStaticInitabc704b282a76268a3554fa71faa24c1
 {
     public static $files = array (
         'be01b9b16925dcb22165c40b46681ac6' => __DIR__ . '/..' . '/wp-cli/php-cli-tools/lib/cli/cli.php',
-        '9d7c2f6c8f73cb51d2c658492d4321a3' => __DIR__ . '/../..' . '/src/Controller.php',
-        '2579770c28ec8f56759996cc9040bab3' => __DIR__ . '/../..' . '/src/View.php',
+        '9c5862424d05d280c765d8ccf9337068' => __DIR__ . '/../..' . '/src/Controller.php',
+        'd599a078641a3da5d0aa82ea66232807' => __DIR__ . '/../..' . '/src/View.php',
+    );
+
+    public static $prefixLengthsPsr4 = array (
+        'S' => 
+        array (
+            'KirillZharkov\\tic-tac-toe\\' => 27,
+        ),
+    );
+
+    public static $prefixDirsPsr4 = array (
+        'KirillZharkov\\tic-tac-toe\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src',
+        ),
     );
 
     public static $prefixesPsr0 = array (
@@ -51,8 +65,10 @@ class ComposerStaticInitc25258445db46b2c05dba35ed14a838d
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixesPsr0 = ComposerStaticInitc25258445db46b2c05dba35ed14a838d::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInitc25258445db46b2c05dba35ed14a838d::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInitabc704b282a76268a3554fa71faa24c1::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInitabc704b282a76268a3554fa71faa24c1::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInitabc704b282a76268a3554fa71faa24c1::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInitabc704b282a76268a3554fa71faa24c1::$classMap;
 
         }, null, ClassLoader::class);
     }

@@ -5,7 +5,7 @@
   "license": "MIT",
   "autoload": {
     "psr-4": {
-      "kirillzharkov\\tic-tac-toe\\": "src/"
+      "KirillZharkov\\tic-tac-toe\\": "src/"
     },
     "files": [
       "src/Controller.php",
