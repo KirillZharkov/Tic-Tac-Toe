@@ -11,5 +11,7 @@
   },
   "bin": [
     "bin/tic-tac-toe.php"
-  ]
+  ],
+  "type": "project",
+  "license": "MIT"
 }
