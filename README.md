@@ -94,3 +94,7 @@
 - [SQLite Documentation](https://www.sqlite.org/docs.html)
 - [PHP Documentation](https://www.php.net/docs.php)
 - [Composer Documentation](https://getcomposer.org/doc/)
+
+## Ссылки на пакеты
+
+- [Packagist пакет Minesweeper](https://packagist.org/packages/kirillzharkov/tic-tac-toe)
