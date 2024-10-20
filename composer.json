@@ -1,33 +1,15 @@
 {
   "name": "kirillzharkov/tic-tac-toe",
-  "description": "Implementation of the game \"tic-tac-toe\"",
-  "type": "project",
-  "license": [
-    "MIT",
-    "GPL-3.0-or-later",
-    "Apache-2.0",
-    "BSD-3-Clause"
-  ],
   "autoload": {
-    "psr-4": {
-      "KirillZharkov\\tic-tac-toe\\": "src/"
-    },
     "files": [
       "src/Controller.php",
       "src/View.php"
     ]
   },
-  "bin": [
-    "bin/tic-tac-toe"
-  ],
-  "authors": [
-    {
-      "name": "KirillZharkov",
-      "email": "kiryshazharkov@gmail.com"
-    }
-  ],
-  "minimum-stability": "stable",
   "require": {
-    "wp-cli/php-cli-tools": "^0.12.0"
-  }
+    "wp-cli/php-cli-tools": "^0.11.21"
+  },
+  "bin": [
+    "bin/start.php"
+  ]
 }
